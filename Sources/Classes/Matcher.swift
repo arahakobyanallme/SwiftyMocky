@@ -121,38 +121,38 @@ public class Matcher {
         register(UInt64?.self)
         register(Data?.self)
 #else
-        register([Bool].self) { $0 == $1 }
-        register([String].self) { $0 == $1 }
-        register([Float].self) { $0 == $1 }
-        register([Double].self) { $0 == $1 }
-        register([Character].self) { $0 == $1 }
-        register([Int].self) { $0 == $1 }
-        register([Int8].self) { $0 == $1 }
-        register([Int16].self) { $0 == $1 }
-        register([Int32].self) { $0 == $1 }
-        register([Int64].self) { $0 == $1 }
-        register([UInt].self) { $0 == $1 }
-        register([UInt8].self) { $0 == $1 }
-        register([UInt16].self) { $0 == $1 }
-        register([UInt32].self) { $0 == $1 }
-        register([UInt64].self) { $0 == $1 }
-        register([Data].self) { $0 == $1 }
-        register([Bool?].self) { $0 == $1 }
-        register([String?].self) { $0 == $1 }
-        register([Float?].self) { $0 == $1 }
-        register([Double?].self) { $0 == $1 }
-        register([Character?].self) { $0 == $1 }
-        register([Int?].self) { $0 == $1 }
-        register([Int8?].self) { $0 == $1 }
-        register([Int16?].self) { $0 == $1 }
-        register([Int32?].self) { $0 == $1 }
-        register([Int64?].self) { $0 == $1 }
-        register([UInt?].self) { $0 == $1 }
-        register([UInt8?].self) { $0 == $1 }
-        register([UInt16?].self) { $0 == $1 }
-        register([UInt32?].self) { $0 == $1 }
-        register([UInt64?].self) { $0 == $1 }
-        register([Data?].self) { $0 == $1 }
+//         register([Bool].self) { $0 == $1 }
+//         register([String].self) { $0 == $1 }
+//         register([Float].self) { $0 == $1 }
+//         register([Double].self) { $0 == $1 }
+//         register([Character].self) { $0 == $1 }
+//         register([Int].self) { $0 == $1 }
+//         register([Int8].self) { $0 == $1 }
+//         register([Int16].self) { $0 == $1 }
+//         register([Int32].self) { $0 == $1 }
+//         register([Int64].self) { $0 == $1 }
+//         register([UInt].self) { $0 == $1 }
+//         register([UInt8].self) { $0 == $1 }
+//         register([UInt16].self) { $0 == $1 }
+//         register([UInt32].self) { $0 == $1 }
+//         register([UInt64].self) { $0 == $1 }
+//         register([Data].self) { $0 == $1 }
+//         register([Bool?].self) { $0 == $1 }
+//         register([String?].self) { $0 == $1 }
+//         register([Float?].self) { $0 == $1 }
+//         register([Double?].self) { $0 == $1 }
+//         register([Character?].self) { $0 == $1 }
+//         register([Int?].self) { $0 == $1 }
+//         register([Int8?].self) { $0 == $1 }
+//         register([Int16?].self) { $0 == $1 }
+//         register([Int32?].self) { $0 == $1 }
+//         register([Int64?].self) { $0 == $1 }
+//         register([UInt?].self) { $0 == $1 }
+//         register([UInt8?].self) { $0 == $1 }
+//         register([UInt16?].self) { $0 == $1 }
+//         register([UInt32?].self) { $0 == $1 }
+//         register([UInt64?].self) { $0 == $1 }
+//         register([Data?].self) { $0 == $1 }
 #endif
 
         // Types
